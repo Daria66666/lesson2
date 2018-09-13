@@ -21,6 +21,7 @@ def task2(number):
         rest = number % 10
         number = number // 10
         summa += rest
+        pr *= rest
     return summa, pr
 
     
